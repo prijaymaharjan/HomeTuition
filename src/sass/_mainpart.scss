@@ -1,0 +1,18 @@
+
+@import "global";
+.mainspart{
+
+        justify-content: center;
+        margin-top: 53px !important; 
+
+          .title{
+              text-transform: capitalize;
+              font-size: 16px;
+               }
+           .paragraph{
+               color:$color-grey;
+                     }
+                     .card-img-top{
+                         height: 200px;
+                     }
+}

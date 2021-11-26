@@ -1,0 +1,21 @@
+
+    .policy{
+        p{
+            font-size: $font-size-20 !important;
+            color: $color-greys;
+            line-height: 32px;
+            text-align: justify;
+        }
+        h4{
+            color:$color-greys;
+            text-align: justify;
+            line-height:32px;
+        }
+        ul{
+            li{
+                list-style-type: disc;
+                @extend p;
+                font-weight: 400;
+            }
+        }
+    }

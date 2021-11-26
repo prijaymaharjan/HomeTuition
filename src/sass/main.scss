@@ -1,0 +1,58 @@
+@import "global";
+$color-white: #fff; 
+    * {
+        padding: 0px;
+        margin: 0px;
+      }
+      body{
+        font-size: 16px;
+      }
+
+.img{
+    background-position:$background-position-center;
+    background-size:$background-size-cover;
+    width: $width-full;
+    height: $height;
+  }
+  h1, h2, h3, h4, h5, h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem !important;
+    line-height: 1.5 !important;
+    font-weight: 700 !important;
+    }
+   
+    p{
+      font-size: 14px;
+      font-weight: $font-weight-600;
+    }
+    .card-body{
+      text-align: center;
+    }
+
+
+ //Navbar
+ 
+  @import "navbar";
+
+  // Carousel.scss and Carousel.js
+  @import "Carousel";
+
+  // mainpart.js
+  @import "mainpart";
+  
+  // Learntobe.js
+  @import "learntobe";
+
+ //Footer.js
+ @import "Footer";
+    
+  //  About.js
+  @import "About";
+
+  // Privacy.js
+@import "Privacy";
+
+//Termcondition.js
+@import "Termcondition";
+
+//Contact.js
+@import 'Contact';

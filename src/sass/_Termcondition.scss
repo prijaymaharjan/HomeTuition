@@ -1,0 +1,6 @@
+.header-font{
+    font-size: 16px !important;
+}
+.par-font{
+    @extend .header-font;
+}

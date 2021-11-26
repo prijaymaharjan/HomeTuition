@@ -1,0 +1,19 @@
+@import "global";
+
+
+.navbars { 
+    .bg-light{
+        background-color: $background-color !important;
+        height: 81px;
+    }
+    .navbar-brand{
+        color: $color-white !important;
+    }
+    .nav-item{
+        color: $color-white !important;
+    }
+    .nav-link{
+        color: $color-white !important;
+    }
+
+}

@@ -1,0 +1,58 @@
+
+  .showcase {
+        width: $width-full;
+        height: $height-500;
+        position: $position-relative;
+        color: $color-white;
+        text-align: center;
+      img {
+         width: $width-full;
+         height: $height-full;
+         position: $position-absolute;
+         top: $top-0;
+         left: $left-0;
+         z-index:99
+      }
+      .overlay {
+        width: $width-full;
+        height: $height-500;
+        background-color: $background-color-blue;
+        position: $position-absolute;
+        top: $top-0;
+        left: $left-0;
+        z-index:999
+      }
+      h2 {
+        margin-top: 170px;
+        font-size: 3em;
+      }
+      p {
+        margin-top: 8px;
+        font-size: 25px;
+      }      
+    }
+    .expl{
+       .container{
+           width: 70%;
+       }
+        p{
+            font-size: 16px;
+        }
+        h4{     
+        color: #ed6d20;
+        font-size: 42px;
+        }
+        .fas{
+            color: $color-green;
+            font-size: 4em; 
+            margin-top: 10px;
+                margin-left: -17px;
+           }
+        .spc{
+            text-align: initial !important;
+        }
+        .fa{
+            @extend .fas;
+        }
+    }
+ 

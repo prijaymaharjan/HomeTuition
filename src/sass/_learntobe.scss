@@ -1,0 +1,36 @@
+
+.learntobe{
+    .heading-img{
+        width: 145px;
+    }
+    .heading-title{
+        margin: -20px 20% 0 20%;
+        font-size: 24px;
+    }
+    
+        .header-imgs{
+            height: 100px !important;
+        }
+        .infos{
+            width: 455px;
+           padding: 15px 5px 15px 15px;
+           background-color: #F8F8F8;
+           border-radius: 10px 10px 10px 10px;
+
+           p{
+               font-size: $font-size-16;
+           }
+        }
+        // Right Grid
+        .elementor-image{
+            img{
+                max-width: 100%;
+                vertical-align: middle;
+                display: inline-block;
+                height: auto;
+            }
+        
+        }
+    
+   
+}
