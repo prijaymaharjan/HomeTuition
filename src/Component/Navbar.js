@@ -31,7 +31,7 @@ render(){
                             <Link to="#" className="dropdown-item">Refund and Cancellation Policy</Link>
                             <Link to="Termcondition" className="dropdown-item">Term & Condition</Link>
                             <Link to="Contact" className="dropdown-item">Contact Us</Link>
-                            <Link to="#" className="dropdown-item">FAQ</Link>
+                            <Link to="FAQ" className="dropdown-item">FAQ</Link>
                         </div>
                     </div>
                 </div>

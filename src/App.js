@@ -13,6 +13,7 @@ import About from './Component/About';
 import Privacy from './Component/Privacy';
 import Termcondition from './Component/Termcondition';
 import Contact from './Component/Contact';
+import FAQ from "./Component/FAQ";
 // End of Home Component
 
 
@@ -28,6 +29,7 @@ function App() {
     <Route exact path="/Privacy"  component={Privacy}/>
     <Route exact path="/Termcondition"  component={Termcondition}/>
     <Route exact path="/Contact"  component={Contact}/>
+    <Route exact path="/FAQ"  component={FAQ}/>
     </Switch>
     </div>
     </BrowserRouter>
