@@ -18,7 +18,7 @@ class Carousel extends Component {
                                  <input type="text" className="form-control" placeholder="Enter your Address"/>
                                     <div className="input-group-append search-button">
                                       <button className="btn btn-secondary" type="button">
-                                   <i className="fa fa-search"></i>
+                                      <i className='fas fa-search'></i>
                                   </button>
                                  </div>
                                 </div>

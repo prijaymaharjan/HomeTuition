@@ -12,7 +12,7 @@ const ArrayData = [
          
                 },
                 {                     
-                    icon:'fa fa-credit-card',
+                    icon:'fas fa-credit-card',
                     ex:'Only pay for the time you need. No subscriptions,no upfront payments. Just affordable results.'
          
                 },

@@ -25,10 +25,10 @@ render(){
                     <div className="nav-item dropdown">
                         <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</Link>
                         <div className="dropdown-menu">
-                            <Link to="#" className="dropdown-item">Blog</Link>
+                            {/* <Link to="#" className="dropdown-item">Blog</Link> */}
                             <Link to="About" className="dropdown-item">About us</Link>
                             <Link to="Privacy" className="dropdown-item">Privacy Policy</Link>
-                            <Link to="#" className="dropdown-item">Refund and Cancellation Policy</Link>
+                            {/* <Link to="#" className="dropdown-item">Refund and Cancellation Policy</Link> */}
                             <Link to="Termcondition" className="dropdown-item">Term & Condition</Link>
                             <Link to="Contact" className="dropdown-item">Contact Us</Link>
                             <Link to="FAQ" className="dropdown-item">FAQ</Link>
