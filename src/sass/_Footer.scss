@@ -13,8 +13,9 @@ li {
  list-style:none
 }
 .a{
-    text-decoration: none;
-    color:$color-blue;
+    text-decoration: none !important;
+    color:$color-blue !important;
+    font-weight: $font-weight-600;
 
     &:focus{
         -webkit-transition:.3s ease;

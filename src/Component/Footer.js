@@ -62,19 +62,19 @@ class Footer extends Component{
               <h4 className="footer-widget-title">Company Information</h4>
               <ul>
               <li>
-                <Link to="#" className="a">Find to Tutor</Link>
+                <Link to="FindTutor" className="a">Find to Tutor</Link>
                 </li>
-                <li>
+                {/* <li>
                 <Link to="#" className="a">Blog</Link>
+                </li> */}
+                <li>
+                <Link to="About" className="a">About</Link>
                 </li>
                 <li>
-                <Link to="#" className="a">About</Link>
-                </li>
-                <li>
-                <Link to="#" className="a">Privacy Policy</Link>
+                <Link to="Privacy" className="a">Privacy Policy</Link>
                 </li>
                    <li>
-                <Link to="#" className="a">contact us</Link>
+                <Link to="Contact" className="a">contact us</Link>
                 </li>
                 
               </ul>
@@ -90,14 +90,14 @@ class Footer extends Component{
             <div className="footer-menu no-padding">
               <h4 className="footer-widget-title">Support And Help</h4>
               <ul>
+                {/* <li>
+                  <Link to="#" className="a">Refund and Cancellation Policy </Link>
+                </li> */}
                 <li>
-                  <a href="#" className="a">Refund and Cancellation Policy </a>
+                <Link to="Termcondition" className="a">Terms and Conditions</Link>
                 </li>
                 <li>
-                <Link to="#" className="a">Terms and Conditions</Link>
-                </li>
-                <li>
-                <Link to="#" className="a">FAQ</Link>
+                <Link to="FAQ" className="a">FAQ</Link>
                 </li>
              
               </ul>

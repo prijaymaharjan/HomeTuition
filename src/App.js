@@ -15,6 +15,8 @@ import Termcondition from './Component/Termcondition';
 import Contact from './Component/Contact';
 import FAQ from "./Component/FAQ";
 import Login from './Component/Login';
+import Register from './Component/Register';
+import FindTutor from './Component/FindTutor';
 // End of Home Component
 
 
@@ -32,6 +34,8 @@ function App() {
     <Route exact path="/Contact"  component={Contact}/>
     <Route exact path="/FAQ"  component={FAQ}/>
     <Route exact path="/Login"  component={Login}/>
+    <Route exact path="/Register"  component={Register}/>
+    <Route exact path="/FindTutor" component={FindTutor}/>
     </Switch>
     </div>
     </BrowserRouter>

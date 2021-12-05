@@ -101,7 +101,7 @@ fieldset[disabled]{
     .label-floating
     {
         label.control-label{
-            position: absolute;
+            position: relative;
             pointer-events: none;
             -webkit-transition: .3s ease all;
             -o-transition: .3s ease all;

@@ -13,12 +13,13 @@ class Login extends Component{
     <form>
       <input type="text" id="login" className="fadeIn second" name="email" placeholder="Email"/>
       <input type="text" id="password" className="fadeIn third" name="login" placeholder="password"/>
+      <p className="mt-1">Don't Have an Account ? <Link className="a" to= "Register">Register</Link> </p>
       <input type="submit" className="fadeIn fourth" value="Log In"/>
     </form>
 
     {/* <!-- Remind Passowrd --> */}
     <div id="formFooter">
-      <Link className="underlineHover a" href="#">Forgot Password?</Link>
+      <Link className="underlineHover a" to="#">Forgot Password?</Link>
     </div>
 
   </div>
