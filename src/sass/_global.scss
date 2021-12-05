@@ -4,7 +4,8 @@ $background-size-cover:cover;
 $border-radius-50:50%;
 $background-color-black:0 4px 4px rgba(0,0,0,.1);
 $background-color-blue:rgba(0, 35, 82, 0.7);
-
+$border-radius-10: 10px 10px 10px 10px;
+$box-shadow-black:0 30px 60px 0 rgba(0,0,0,0.3);
 $width-full:100%;
 
 
@@ -14,6 +15,9 @@ $color-grey:#999;
 $color-greys:#5e5d5d;
 $color-white:white;
 $color-green:#60ad56;
+$color-skyblue:#5fbae9;
+$color-skyblues:#92badd;
+$color-skybluess:#56baed;
 
 $font-size:12px;
 $font-size-18:18px;
@@ -32,3 +36,6 @@ $left-0: 0;
 $height:600px;
 $height-500:500px;
 $height-full:100%;
+
+
+$text-align:center;

@@ -36,7 +36,7 @@ render(){
                     </div>
                 </div>
                 <div className="navbar-nav ms-auto">
-                    <Link to="#" className="nav-item nav-link">Login</Link>
+                    <Link to="Login" className="nav-item nav-link">Login</Link>
                 </div>
                 <div className="nav-item dropdown">
                         <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Register</Link>
