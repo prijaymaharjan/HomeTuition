@@ -18,7 +18,15 @@ render(){
       <li className="nav-item">
         <Link className="nav-link" to="#">Pay Online</Link>
       </li>
-     
+      <li className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        One-to-One Class
+        </a>
+        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+           {/* <Link to="#" className="dropdown-item">Blog</Link> */}
+                      <Link to="FindTutor" className="dropdown-item">Find Tutor</Link>         
+        </div>
+      </li>
       <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         More
@@ -34,15 +42,7 @@ render(){
                         
         </div>
       </li>
-      <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        One-to-One Class
-        </a>
-        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-           {/* <Link to="#" className="dropdown-item">Blog</Link> */}
-                      <Link to="FindTutor" className="dropdown-item">Find Tutor</Link>         
-        </div>
-      </li>
+     
       <li className="nav-item">
         <Link className="nav-link" to="Login">Login</Link>
       </li>
