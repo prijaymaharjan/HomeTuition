@@ -67,4 +67,37 @@ h5 {
             margin-top:-16px;
         }
     }
+    .imag{
+        height: 195px;
+    }
+    //Button
+    .a{
+        text-decoration: none;
+        color:black !important
+    }
+    .btn6{
+        padding: 13px 0;
+        border: 1px solid $color-skybluess;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: 3px;
+        transition: all .2s ease-in-out;
+        
+        &:hover {
+          background: $color-skybluess;
+          border: 1px solid $color-skybluess !important;
+          color: #fefefe !important;
+          border-radius: 30px;
+        }
+        &:link{
+            @extend .btn6;
+        }
+        &:visited {
+            @extend .btn6;
+        }
+      }
+      
+      
 }
