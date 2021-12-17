@@ -64,13 +64,15 @@ class Profiletutor extends Component{
 				</div>
                 {/* Right Side */}
 				{/* Popup */}
-				{
+			
+			{
 					this.state.showPopup ? 
           <Popup
             closePopup={this.togglePopup.bind(this)}
           />
           : null
         }
+			
 				<div className="col-lg-8 mt-5">
 
                 {/* About me */}
