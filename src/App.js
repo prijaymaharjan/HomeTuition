@@ -19,6 +19,8 @@ import Register from './Component/Register';
 import FindTutor from './Component/FindTutor';
 // End of Home Component
 
+import Profiletutor from './Component/Profiletutor';
+
 
 
 function App() {
@@ -36,6 +38,7 @@ function App() {
     <Route exact path="/Login"  component={Login}/>
     <Route exact path="/Register"  component={Register}/>
     <Route exact path="/FindTutor" component={FindTutor}/>
+    <Route exact path="/Profiletutor" component={Profiletutor}/>
     </Switch>
     </div>
     </BrowserRouter>

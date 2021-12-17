@@ -1,4 +1,6 @@
+// Go to About.js
 import React,{Component} from "react";
+import About from "./About";
 
 class Aboutexplain extends Component{
     render (){

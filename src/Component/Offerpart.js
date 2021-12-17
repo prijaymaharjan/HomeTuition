@@ -1,3 +1,4 @@
+//Go to Mainpart.js
 import React, {Component} from "react";
 
 class Offerpart extends Component{

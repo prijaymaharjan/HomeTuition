@@ -1,15 +1,16 @@
 
+
 .profile{
     
 
 .ratings{ i {
     font-size: 16px;
-    color: red
+    color: yellow
 }
 }
 
 .strike-text {
-    color: red;
+    color: yellow;
     text-decoration: line-through
 }
 
@@ -75,6 +76,9 @@ h5 {
         text-decoration: none;
         color:black !important
     }
+    .thrs{
+        font-weight: $font-weight-500;
+    }
     .btn6{
         padding: 13px 0;
         border: 1px solid $color-skybluess;
@@ -98,6 +102,9 @@ h5 {
             @extend .btn6;
         }
       }
-      
+     .discountfee{
+         color:red;
+         font-weight: $font-weight-600;
+     } 
       
 }

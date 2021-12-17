@@ -1,0 +1,40 @@
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+    z-index: 1;
+   
+
+    .popup_inner {
+      position: absolute;
+      left: 25%;
+      right: 25%;
+      top: 25%;
+      bottom: 25%;
+      margin: auto;
+      background: white;
+      border-radius: 15px;
+      animation: fadeInDown 0.8s;
+    }
+    .btn-close{
+      margin: 6px 8px 0px 0px !important; 
+    }
+  }
+  
+  @keyframes fadeInDown{
+    0%{
+      opacity:0;
+      transform: translateY(-50px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

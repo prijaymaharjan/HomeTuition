@@ -28,6 +28,8 @@ class About extends Component{
                 <div className="container text-center">
                 <h4 className="text-capitalize mb-3">The Wyzant Difference</h4>
                 <div className="row">
+
+                {/*Go to Aboutexplain.js */}
                   
                         {
                             ArrayData.map((val, ind) => {

@@ -1,0 +1,188 @@
+
+.profiletutor{
+    background: #f7f7ff;
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: $color-white;
+        background-clip: border-box;
+        border: 0 solid transparent;
+        margin-bottom: 1.5rem;
+        box-shadow: $box-shadow-black-1;
+        border-radius:14px;
+
+        .card-body{
+            .aboutme{
+                font-family: "FoundersGrotesk",sans-serif;
+                font-size: 1.25rem;
+                line-height: 1.625rem !important;
+                font-weight: 600 !important;
+                color: #242424;
+                    
+            }
+        }
+    }
+    td{
+      font-weight: 500;
+     
+    }
+    .fa-check{
+      color: rgba(6, 94, 197,  0.9); 
+    }
+    th{
+      text-transform: capitalize;
+    }
+    .me-2 {
+        margin-right: .5rem!important;
+    }
+    .btn{        
+        display: inline-block;
+        outline: 0;
+        cursor: pointer;
+        border: none;
+        padding: 0 10px;
+        height: 45px;
+        line-height: 45px;
+        border-radius: 7px;
+          box-shadow:rgba(0, 118, 255, 0.39)  0 4px 14px 0 ;
+       
+        &:hover{
+            background: rgba(0,118,255,0.9);
+            box-shadow: rgba(0, 118, 255, 0.23) 0 6px 20px ;
+        }
+        
+    }
+   
+  
+    .ratings {
+        margin: 0px 0px 2px 65px;            
+    }
+    span{
+     font-family: unset;
+    font-weight: $font-weight-600;
+    }
+   .detail{
+    font-weight: $font-weight-500;
+   }
+    .product-rating {
+        font-size: 21px
+    }
+    .product-ratings{
+        margin: -4px 0 0 6px;
+    }
+   
+    .stars i {
+        font-size: 18px;
+        color: $background-color-yellow;
+    }
+   .aboutcard{
+       padding: 24px;
+   }
+        
+   
+    //Show More & Less
+    @mixin truncate($rows, $line-height, $background: '') {
+        position: relative;
+        overflow: hidden;
+        max-height: $line-height * $rows;
+        line-height: $line-height;
+      
+        &:after {
+          content: "";
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          width: 100px;
+          height: $line-height;
+      
+          @if $background != '' {
+            background: linear-gradient(to right, rgba($background, 0) 0%, rgba($background, 1) 100%);
+          }
+        }
+      
+        // If supports line-clamp then add an ellipsis overflow and hide the gradient
+        // This will work in Chrome and Opera, otherwise a gradient will gradually hide the text.
+      
+        @supports (-webkit-line-clamp: $rows) {
+          display: -webkit-box;
+          -webkit-line-clamp: $rows;
+          -webkit-box-orient: vertical;
+      
+          &:after {
+            display: none;
+          }
+        }
+      }
+      
+      .show-hide-text {
+        display: flex;
+        flex-wrap: wrap;
+      
+        a{
+          order: 2;
+          text-decoration: none;          
+          font-size: 16px;
+          font-weight: 600;
+          border: 4px solid;
+          width: 108px;
+          height: 42px;
+          padding: 6px 0px;
+          border-radius: 29px;
+          box-shadow: $box-shadow-black;
+        }
+        
+      
+        p {
+          @include truncate(8, 20px, #fff); // rows, line-height, gradient fallback
+        }
+      }
+      
+      .show-less {
+        display: none;
+      
+        &:target {
+          display: block;
+      
+          ~ p {
+            display: block;
+            max-height: 100%;
+          }
+      
+          + a {
+            display: none;
+          }
+        }
+      }
+      .show-lesss {
+        display: none;
+      
+        &:target {
+          display: block;
+      
+          ~ p {
+            display: block;
+            max-height: 100%;
+          }
+      
+          + a {
+            display: none;
+          }
+        }
+      }
+      
+      
+      
+      // Presentation styles
+      
+      .wrapper {
+              
+        p {
+          font-size: 16px;
+          line-height: 31px;
+        }
+      }
+}
+

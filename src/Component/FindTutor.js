@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import Staticimage from './Staticimage'
-import faq from "../Images/what-is-a-FAQ-page.png"
 import Footer from './Footer';
 import TutorProfileblock from "./TutorProfileblock";
 
@@ -31,11 +30,11 @@ render(){
               </div>
             </div>
             </form>
-
+            {/* TutorProfileblock.js */}
             <TutorProfileblock/>
                      </div>
                      {/* End Form */}
-
+  <Footer/>
                      
     </div>
     )

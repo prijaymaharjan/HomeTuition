@@ -1,4 +1,4 @@
-// It make array of card for Offerpart.js
+// Go to About.js
 
 
 const ArrayData = [
