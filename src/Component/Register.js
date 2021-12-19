@@ -15,8 +15,8 @@ render(){
     <form>
     <input type="text" id="fullname" className="fadeIn second" name="fullname" placeholder="Full Name"/>
       <input type="text" id="login" className="fadeIn second" name="email" placeholder="Email"/>
-      <input type="text" id="password" className="fadeIn third" name="login" placeholder="password"/>
-      <input type="text" id="confirmpassword" className="fadeIn third" name="login" placeholder="Confirm password"/><br/>
+      <input type="password" id="password" className="fadeIn third" name="login" placeholder="password"/>
+      <input type="password" id="confirmpassword" className="fadeIn third" name="login" placeholder="Confirm password"/><br/>
         
       <div class="d-flex flex-nowrap mt-4">
      {/* Radio Button */}

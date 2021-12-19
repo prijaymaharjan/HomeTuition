@@ -12,7 +12,7 @@ class Login extends Component{
        <h4 className="mt-3">Sign In</h4>
     <form>
       <input type="text" id="login" className="fadeIn second" name="email" placeholder="Email"/>
-      <input type="text" id="password" className="fadeIn third" name="login" placeholder="password"/>
+      <input type="password" id="password" className="fadeIn third" name="login" placeholder="password"/>
       <p className="mt-1">Don't Have an Account ? <Link className="a" to= "Register">Register</Link> </p>
       <input type="submit" className="fadeIn fourth" value="Log In"/>
     </form>
